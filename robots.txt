@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /*feed/rss
+Disallow: /*feed/rss2
+Disallow: /search/*/feed/
+Disallow: /*?stock_status=*
+Disallow: /*?add_to_cart=*
+Disallow: /*?woodmart_reviews_sorting_select=*
+Disallow: /*?orderby=*
+Disallow: /*?v=*
+Disallow: /*?per_page=*
+Disallow: /*?orderby=date*
+Disallow: /*?filter_*
+Disallow: /*?query_type_*
+Disallow: /wp-content/uploads/wc-logs/
+Disallow: /wp-content/uploads/woocommerce_transient_files/
+Disallow: /wp-content/uploads/woocommerce_uploads/
+Disallow: /*?per_row=*
+Disallow: /*?shop_view=*
+
+Sitemap:https://www.synergytherm.com/sitemap.xml
